@@ -46,3 +46,11 @@
 </div>
 </body>
 </html>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.close').on('click', function() {
+        $(this).parent().fadeOut();
+    });
+});
+</script>
